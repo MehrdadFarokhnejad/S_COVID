@@ -42,7 +42,7 @@ ___
 ---
 **Quickstart possible**: You don't have to train the model yourself, you can simply load it from below link!
 
-- Data -  [A Neural Probabilistic Language Model(2003)](http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
+- Data -  [COVID-19 scientific literatures and trained models](https://drive.google.com/drive/folders/1TnkE4qrZ15i8Ze0DtjHIE26MivRBBsgR?usp=sharing)
 - Colab - [main_git.ipynb](https://colab.research.google.com/drive/1TYYaqKBsTfZkEuF5Hqvvk5-7aMQ2Ably?usp=sharing)
 
 
