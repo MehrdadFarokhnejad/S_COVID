@@ -1,3 +1,4 @@
+
 # S_COVID
 
 ## A Search Engine to Explore COVID-19 Scientific Literature. Do you want to easily find related COVID-19 articles? Do you want to find important sentnces regarding your query in the papers? Do you have a specific research question and want to discover relevant articles? S_COVID can help you with all of your queries
@@ -11,7 +12,7 @@ ___
 * For each of the paper present, we used three column of the dataset- Title, Abstract and Body text and combined them to form a ‘complete text’  containing all the text present in each of the paper.
 *Then we performed pre-processing on the ‘complete text’.  We used scispaCy,  a Python package containing spaCy models for processing biomedical, scientific or clinical text. We removed the stop words and perform word lemmatization on the text data. We also removed some common unnecessary words such as author, figure, copyrights, license, fig. Etc from the  ‘complete text’. 
 * We used ‘Gensim’ Python library to train our word2vec model on the  ‘complete text’ for each of the paper present in the dataset. We then save the word2vec model for the future uses.
-
+---
 **LDA TOPIC MODELING and FINDING ANSWERS TO THE QUERY-**
 
 * We trained a LDA(Latent Dirichlet Allocation) model for topic modeling on the given dataset. In topic modeling each topic is a distribution over words and each document/paper is a mixture of topics  We discovered 50 as optimum number of topics.
@@ -24,7 +25,7 @@ ___
 
 ___
 
-** Features**
+**Features**
 * Select a **time range** to limit the articles that are considered (you can decide if you want to find the latest publications or search for insights in past research)
 * Option to only suggest **COVID-19-papers** (those that contain COVID-19, SARS-CoV-2, 2019-nCov, SARS Coronavirus 2 or 2019 Novel Coronavirus in the text body)
 
@@ -39,5 +40,19 @@ ___
 * Unsupervised learning of topics is hard to verify
 
 ---
-**Quickstart possible**: You don't have to train the model yourself, you can simply load it from the output files!
+**Quickstart possible**: You don't have to train the model yourself, you can simply load it from below link!
+
+- Data -  [A Neural Probabilistic Language Model(2003)](http://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf)
+- Colab - [main_git.ipynb](https://colab.research.google.com/drive/1TYYaqKBsTfZkEuF5Hqvvk5-7aMQ2Ably?usp=sharing)
+
+
+
+**Dependencies**
+
+* Python 3.6+
+
+**Author**
+
+* Mehrdadfarokhnejad
+* Author Email : Mehrdadfarokhnejad@gmail.com 
 
