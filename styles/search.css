@@ -1,0 +1,64 @@
+/* Header */
+.header{
+    border-bottom: 1px solid #F2F2F2;
+}
+.header__title-text {
+    font-size: 1.25rem;
+    display: inline-block;
+    vertical-align: middle;
+    text-shadow: 1PX 1px 5px #b8211d;
+    color: white;
+}
+
+
+/********************************************************************/
+/* Search form */
+
+.form__input {
+    width: 32rem;
+    border-radius: 2rem 0 0 2rem;
+    height: 3rem;
+    padding-left: 1.2rem;
+}
+
+.form__submit {
+    height: 3rem;
+    border-radius: 0 2rem 2rem 0;
+    margin-top: -2px;
+}
+
+@media all and (min-width: 576px) {}
+
+
+
+/********************************************************************/
+/* Result */
+.res__gutter{
+    width: 10rem;
+}
+
+.paper__title{
+    font-size: 1.7rem;
+    color: #ba2727;
+}
+
+/********************************************************************/
+/* Footer */
+.footer {
+    background-color: #F2F2F2;
+    border-top: 1px solid #E4E4E4;
+}
+
+.footer__menu {
+    list-style: none;
+}
+
+.footer__menu__item {
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+}
+
+.footer__menu__item a {
+    color: #290006;
+}

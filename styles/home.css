@@ -1,0 +1,88 @@
+/* Header */
+.header__title-text {
+    font-size: 1.5rem;
+    display: inline-block;
+    vertical-align: middle;
+    text-shadow: 1PX 1px 5px #b8211d;
+    color: white;
+}
+
+.header__desc {
+    font-size: 1rem;
+}
+
+
+/********************************************************************/
+/* Search form */
+
+.form__title {
+    font-size: 1.875rem;
+}
+
+@media all and (min-width: 576px) {
+    .form__con {
+        margin-top: 3rem;
+    }
+
+    .form__input {
+        width: 32rem;
+        border-radius: 2rem 0 0 2rem;
+        height: 3rem;
+        padding-left: 1.2rem;
+    }
+
+    .form__submit {
+        height: 3rem;
+        border-radius: 0 2rem 2rem 0;
+        margin-top: -6px;
+    }
+}
+
+
+/********************************************************************/
+/* recommendation */
+.rec__con {
+    max-width: 35rem;
+}
+
+.rec__title{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #666;
+}
+
+.rec__items, .rec__items li a{
+    font-size: 0.95rem;
+    color: #666;
+}
+
+@media all and (min-width: 576px) {
+    .rec__con {
+        margin-top: 6rem !important;
+    }
+}
+
+/********************************************************************/
+/* Footer */
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #F2F2F2;
+    border-top: 1px solid #E4E4E4;
+}
+
+.footer__menu {
+    list-style: none;
+}
+
+.footer__menu__item {
+    display: inline-block;
+    padding: 0.5rem 0.75rem;
+    font-size: 0.875rem;
+}
+
+.footer__menu__item a {
+    color: #290006;
+}

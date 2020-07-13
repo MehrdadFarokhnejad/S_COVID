@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Covid-19 Exploration</title>
+    <link rel='icon' href='favicon.ico' type='image/x-icon'>
+
+    <link rel="stylesheet" type="text/css" href="vendors/bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+    <link rel="stylesheet" type="text/css" href="styles/search.css">
+</head>
+<body>
+
+<!-- Home Header-->
+<header class="header my-3">
+    <div class="container-fluid row align-items-center">
+        <div class="header__title-con col-md-auto">
+            <img class="header__title-img" width="100" src="images/logo.png" alt="covid-19 logo">
+            <span class="header__title-text d-block">Exploration</span>
+        </div>
+        <div class="col-md">
+            <form>
+                <label>
+                    <input placeholder="Enter Search e.g. seasonality of transmission" class="form-control form__input"
+                           type="text">
+                </label>
+                <button type="submit" class="btn btn-primary form__submit pr-4">Search</button>
+            </form>
+        </div>
+    </div>
+</header>
+
+
+<!--  Main Area -->
+<main class="row no-gutters">
+    <div class="col-md-auto d-none d-md-block res__gutter"></div>
+
+    <div class="res-con col-md">
+        <div class="res__title mb-3">Results for {Search Query}</div>
+
+        <article class="paper mb-5">
+            <header class="ml-2">
+                <h1 class="paper__title">{Paper Title}</h1>
+                <span class="paper__date">{Journal and date}</span>
+            </header>
+
+            <p class="paper__body__title my-2">Related sentences in the paper</p>
+
+            <ul class="paper__sentences">
+                <li>Sentence 1: </li>
+                <li>Sentence 2: </li>
+                <li>Sentence 3: </li>
+                <li>Sentence 4: </li>
+                <li>Sentence 5: </li>
+            </ul>
+        </article>
+
+        <article class="paper mb-5">
+            <header class="ml-2">
+                <h1 class="paper__title">{Paper Title}</h1>
+                <span class="paper__date">{Journal and date}</span>
+            </header>
+
+            <p class="paper__body__title my-2">Related sentences in the paper</p>
+
+            <ul class="paper__sentences">
+                <li>Sentence 1: </li>
+                <li>Sentence 2: </li>
+                <li>Sentence 3: </li>
+                <li>Sentence 4: </li>
+                <li>Sentence 5: </li>
+            </ul>
+        </article>
+
+
+    </div>
+</main>
+
+
+<!-- Footer -->
+<footer class="footer">
+    <ul class="footer__menu d-flex flex-column flex-sm-row align-items-center p-0 m-0 justify-content-center">
+        <li class="footer__menu__item"><a href="#">Covid-19 Project</a></li>
+        <li class="footer__menu__item"><a href="#">About us</a></li>
+        <li class="footer__menu__item"><a href="#">Contact us</a></li>
+        <li class="footer__menu__item"><a href="#">Legal Notice</a></li>
+    </ul>
+</footer>
+
+<script src="vendors/jquery/jquery-3.5.0.min.js"></script>
+<script src="vendors/popper/popper.min.js"></script>
+<script src="vendors/bootstrap/bootstrap.min.js"></script>
+</body>
+</html>
