@@ -1,0 +1,8 @@
+title: S covid
+description: A Search Engine to Explore COVID-19 Scientific Literature
+google_analytics: 
+show_downloads: true
+theme: jekyll-theme-cayman
+
+gems:
+  - jekyll-mentions
